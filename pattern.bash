@@ -25,9 +25,9 @@ do
    if(($contador == 0)); then 
       echo "$i was not fount on the file"            
       prob_arr+=($i) 
-   fi 
-      
-   echo "$i was fount $contador times"     
+   else
+      echo "$i was fount $contador times"     
+   fi          
 done
 
 echo " "
